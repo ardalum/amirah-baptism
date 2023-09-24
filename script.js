@@ -6,13 +6,13 @@ let typewriter = new Typewriter(gradient, {
 });
 
 typewriter
-  .typeString("Christening")
-  .pauseFor(2000)
+  .typeString("Baptism")
+  .pauseFor(1500)
   .deleteAll()
   .typeString("and")
   .pauseFor(1000)
   .deleteAll()
   .typeString("1st Birthday")
-  .pauseFor(2500)
+  .pauseFor(1500)
   .start();
 // *******************************************************************************
