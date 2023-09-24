@@ -7,7 +7,7 @@ let typewriter = new Typewriter(gradient, {
 
 typewriter
   .typeString("Christening")
-  .pauseFor(2500)
+  .pauseFor(2000)
   .deleteAll()
   .typeString("and")
   .pauseFor(1000)
