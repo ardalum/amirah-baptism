@@ -1,0 +1,89 @@
+/* MEDIA QUERY******************************************************************** */
+
+@media (max-width: 80em) {
+  .amirah-pic-top {
+    width: 280px !important;
+  }
+
+  .when {
+    font-size: 1.2rem !important;
+  }
+
+  .container .where-img {
+    width: 400px;
+  }
+
+  .main-div {
+    gap: 3.5rem !important;
+  }
+}
+
+@media (max-width: 69em) {
+  .amirah-pic-top {
+    width: 250px !important;
+  }
+
+  .main-div {
+    gap: 2rem !important;
+  }
+
+  .grid-2-cols {
+    row-gap: 4rem !important;
+  }
+}
+
+@media (max-width: 32em) {
+  header {
+    margin-bottom: 2rem;
+  }
+
+  .amirah-header > h1 {
+    font-size: 1rem;
+  }
+
+  .amirah-header {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+  .list-none {
+    margin-right: 0;
+  }
+
+  ul > li {
+    font-size: 0.8rem;
+  }
+
+  .main-div {
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #gradient {
+    font-size: 30px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .amirah-header > h1 {
+    font-size: 0.8rem;
+  }
+
+  ul > li {
+    font-size: 0.6rem;
+  }
+
+  .right-para > p {
+    font-size: 1rem;
+  }
+}

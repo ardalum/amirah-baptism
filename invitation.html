@@ -14,44 +14,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/style/queries.css" />
+    <link rel="stylesheet" href="/style/animation.css" />
+    <link rel="stylesheet" href="/style/styles.css" />
     <title>You're Invited</title>
   </head>
   <body>
-    <div class="bg-container">
-      <header>
-        <div class="amirah-header">
-          <h1><a href="#">Amirah</a></h1>
-        </div>
-        <nav>
-          <ul class="list-none">
-            <li class="hover-cl"><a href="#location">When & Where?</a></li>
-            <li class="hover-cl"><a href="#contact">Contact us</a></li>
-            <li class="hover-cl"><a href="#rsvp">RSVP</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="main-div">
-          <div class="hero-img">
-            <img src="imgs/amirah123.png" alt="amirah picture" />
+    <div class="head-container">
+      <div class="bg-container">
+        <header>
+          <div class="amirah-header">
+            <h1><a href="#">Amirah</a></h1>
           </div>
-          <div class="right-para">
-            <h1>You're Invited</h1>
-            <p>Please join us as we celebrate the</p>
-            <h2 id="gradient"></h2>
-            <p>of our daughter</p>
-            <h1 class="rainbow-text">Amirah Dalumpines</h1>
-            <a href="#location" class="button"></a>
-            <audio controls autoplay loop>
-              <source src="audio/audio.ogg">
-              <source src="audio/audio.mp3">
-            </audio>
+          <nav>
+            <ul class="list-none">
+              <li class="hover-cl"><a href="#location">When & Where?</a></li>
+              <li class="hover-cl"><a href="#contact">Contact us</a></li>
+              <li class="hover-cl"><a href="#rsvp">RSVP</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <div class="main-div">
+            <div class="hero-img">
+              <img src="imgs/amirah123.png" alt="amirah picture" class="amirah-pic-top"/>
+            </div>
+            <div class="right-para">
+              <h1>You're Invited</h1>
+              <p>Please join us as we celebrate the</p>
+              <h2 id="gradient"></h2>
+              <p>of our daughter</p>
+              <h1 class="rainbow-text">Amirah Dalumpines</h1>
+              <a href="#location" class="button"></a>
+              <audio controls autoplay loop>
+                <source src="audio/audio.ogg">
+                <source src="audio/audio.mp3">
+              </audio>
+            </div>
+            <div class="hero-img">
+              <img src="imgs/amirah2.png" alt="amirah picture" class="amirah-pic-top"/>
+            </div>
           </div>
-          <div class="hero-img">
-            <img src="imgs/amirah2.png" alt="amirah picture" />
-          </div>
-        </div>
+      </div>
     </div>
     <section class="timer-section">
       <p id="countdown"></p>
@@ -62,7 +66,7 @@
       </div>
       <div class="container grid-2-cols">
         <div class="left-img justify-center">
-          <img src="/imgs/church.jpg" alt="Picture of the church">
+          <img src="/imgs/church.jpg" alt="Picture of the church" class="where-img">
         </div>
         <div class="when justify-center">
           <div class="flex-church">
@@ -72,7 +76,7 @@
           </div>
           <p><strong>Sto Nino De Molino Parish Church</strong></p>
           <p>November 18, 2022 | 8AM</p>
-          <p>42 Avenida Rizal, Bacoor, Cavite, Philippines</p>
+          <p>42 Avenida Rizal, Bacoor, Cavite</p>
           <p class="small">Click your preferred app for navigation.</p>
           <div class="icons">
             <figure>
@@ -93,7 +97,7 @@
           </div>
           <p><strong>Garden Vylah Private Resort</strong></p>
           <p>November 18, 2022 | 9:30AM</p>
-          <p>Cita Bukid, Buhay na Tubig, Molino 3, <br>Bacoor, Cavite</p>
+          <p>Cita Bukid, Buhay na Tubig, <br>Molino 3, Bacoor, Cavite</p>
           <p class="small">Click your preferred app for navigation.</p>
           <div class="icons">
             <figure>
@@ -107,7 +111,7 @@
           </div>
         </div>
         <div class="right-img justify-center">
-            <img src="imgs/resort.jpg" alt="picture of the resort">
+            <img src="imgs/resort.jpg" alt="picture of the resort" class="where-img">
         </div>
       </div>
     </section>
