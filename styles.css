@@ -7,8 +7,9 @@
 :root {
   --main: #f7ede2;
   --gold: #fee440;
-  --text: #000000;
+  --text: #6d5a72;
   --loc: #eff9f0;
+  --timer: #eec8e0;
 }
 
 body {
@@ -49,7 +50,7 @@ li > a {
 
 .hover-cl:hover {
   cursor: pointer;
-  color: white;
+  color: #000;
 }
 
 .bg-container {
@@ -158,6 +159,21 @@ li > a {
   }
 }
 
+.timer-section {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--timer);
+}
+
+#countdown {
+  font-family: "Tourney", cursive;
+  font-size: 4rem;
+  max-width: 100%;
+  color: var(--text);
+}
+
 #location {
   background-color: var(--loc);
   display: grid;
@@ -225,12 +241,12 @@ figcaption {
 
 #rsvp {
   text-align: center;
+  background-color: var(--timer);
 }
 
-/* #rsvp iframe {
+#rsvp iframe {
   width: 100%;
-  height: 100%;
-} */
+}
 
 /* ANIMATION******************************************************************* */
 #gradient {
