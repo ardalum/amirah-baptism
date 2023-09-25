@@ -81,6 +81,7 @@ li > a {
   align-items: center;
   gap: 5rem;
   font-size: 1.2rem;
+  padding: 0 3.2rem;
 }
 
 .amirah-pic-top {
@@ -94,7 +95,6 @@ li > a {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 30rem;
   align-items: center;
 }
 
@@ -172,7 +172,7 @@ source {
 
 .when {
   font-size: 1.8rem;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .small {
@@ -207,7 +207,8 @@ figcaption {
 }
 
 .contact-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   gap: 5rem;
@@ -219,6 +220,13 @@ figcaption {
   padding: 2rem;
   border-radius: 40px;
   text-align: center;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: var(--timer);
+  color: #112a46;
 }
 
 address a {
@@ -229,6 +237,7 @@ address a {
 #rsvp {
   text-align: center;
   background-color: var(--timer);
+  height: 100%;
 }
 
 #rsvp iframe {
