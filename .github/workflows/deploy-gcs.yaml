@@ -23,9 +23,9 @@ jobs:
         with:
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: gh-actions-amirah
+          project_id: amirah.life
 
       - name: Deploy via GCS
         run: |
-          gsutil -m rm -rf gs://gh-actions-amirah/* || echo "$?"
-          gsutil -m cp -r * gs://gh-actions-amirah/
+          gsutil -m rm -rf gs://amirah.life/* || echo "$?"
+          gsutil -m cp -r * gs://amirah.life/
