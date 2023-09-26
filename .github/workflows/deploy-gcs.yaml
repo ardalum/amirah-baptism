@@ -23,7 +23,7 @@ jobs:
         with:
           service_account_email: ${{ secrets.GCP_SA_EMAIL }}
           service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: amirah.life
+          project_id: amirah-400207
 
       - name: Deploy via GCS
         run: |
