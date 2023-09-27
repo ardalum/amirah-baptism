@@ -43,3 +43,24 @@ let timer = setInterval(function () {
     document.getElementById("countdown").textContent = "Celebrated";
   }
 }, 1000);
+
+// setAttribute upon load
+let m = document.getElementById("m");
+let w = document.getElementById("w");
+let v = document.getElementById("v");
+let p = document.getElementById("p");
+
+m.setAttribute("href", "https://m.me/arvin109");
+w.setAttribute("href", "https://wa.me/639952601148");
+v.setAttribute("href", "viber://chat?number=%2B639952601148");
+p.setAttribute("href", "tel:+639952601148");
+
+let m1 = document.getElementById("m");
+let w1 = document.getElementById("w");
+let v1 = document.getElementById("v");
+let p1 = document.getElementById("p");
+
+m1.setAttribute("href", "https://m.me/pearly.andres");
+w1.setAttribute("href", "https://wa.me/639182744939");
+v1.setAttribute("href", "viber://chat?number=%2B639182744939");
+p1.setAttribute("href", "tel:+639182744939");
