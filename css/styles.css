@@ -188,6 +188,11 @@ source {
   gap: 2.4rem;
 }
 
+.contact-icons {
+  gap: 1.5rem;
+  justify-content: center;
+}
+
 .icons-img {
   width: 48px;
   height: 48px;
@@ -198,10 +203,22 @@ figcaption {
   font-weight: bold;
 }
 
-#contact {
-  height: 400px;
-  font-size: 2rem;
+#contact-id {
   background-color: var(--contact);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+#contact {
+  font-size: 2rem;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
