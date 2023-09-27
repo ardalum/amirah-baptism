@@ -388,6 +388,11 @@
   .rsvp-p-bot-para {
     font-size: 0.6rem !important;
   }
+
+  .where-img {
+    width: 250px !important;
+    height: 150px !important;
+  }
 }
 
 @media (max-width: 21.5em) {
@@ -423,11 +428,6 @@
 
   .heading-secondary {
     font-size: 1.6rem !important;
-  }
-
-  .where-img {
-    width: 200px;
-    height: 190px;
   }
 
   .when {
