@@ -129,22 +129,21 @@ source {
 }
 
 .padding-top-bot {
-  padding: 4.8rem 0;
+  margin: 4rem 0;
+  text-align: center;
 }
 
 .grid-2-cols {
   display: grid;
   align-items: center;
-  justify-content: space-evenly;
   grid-template-columns: 1fr 1fr;
-  padding-bottom: 9.6rem;
-  row-gap: 9.6rem;
+  row-gap: 4rem;
+  margin-bottom: 4rem;
   column-gap: 4rem;
 }
 
 .container {
   max-width: 150rem;
-  margin: auto;
 }
 
 .heading-secondary {
@@ -159,18 +158,26 @@ source {
   border-radius: 40px;
 }
 
-.justify-center {
-  justify-self: center;
-  width: 100%;
-}
-
 .flex-church {
   display: flex;
   gap: 1.2rem;
   align-items: center;
 }
 
-.when {
+.left-img,
+.right-img,
+.when-right,
+.when-left {
+  padding: 0 2rem;
+}
+
+.left-img,
+.when-left {
+  justify-self: end;
+}
+
+.when-right,
+.when-left {
   font-size: 1.8rem;
   line-height: 1.5;
 }
@@ -185,7 +192,7 @@ source {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 2.4rem;
+  gap: 1.5rem;
 }
 
 .contact-icons {
@@ -203,12 +210,17 @@ figcaption {
   font-weight: bold;
 }
 
+figure {
+  text-align: center;
+}
+
 #contact-id {
   background-color: var(--contact);
-  height: 500px;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
 }
 
 .contact-header {
@@ -218,6 +230,7 @@ figcaption {
 
 #contact {
   font-size: 2rem;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -230,6 +243,8 @@ figcaption {
   align-items: center;
   gap: 5rem;
   max-width: 200rem;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
 }
 
 .box {
@@ -252,13 +267,28 @@ address a {
 }
 
 #rsvp {
-  text-align: center;
   background-color: var(--timer);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
 }
 
-#rsvp iframe {
-  width: 100%;
+.rsvp-p-container {
+  max-width: 40%;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.rsvp-p-bot-para {
+  max-width: 30%;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Footer */

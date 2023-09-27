@@ -52,15 +52,15 @@ let p = document.getElementById("p");
 
 m.setAttribute("href", "https://m.me/arvin109");
 w.setAttribute("href", "https://wa.me/639952601148");
-v.setAttribute("href", "viber://chat?number=%2B639952601148");
+v.setAttribute("href", "viber:/contact?number=%2B639952601148");
 p.setAttribute("href", "tel:+639952601148");
 
-let m1 = document.getElementById("m");
-let w1 = document.getElementById("w");
-let v1 = document.getElementById("v");
-let p1 = document.getElementById("p");
+let m1 = document.getElementById("m1");
+let w1 = document.getElementById("w1");
+let v1 = document.getElementById("v1");
+let p1 = document.getElementById("p1");
 
 m1.setAttribute("href", "https://m.me/pearly.andres");
 w1.setAttribute("href", "https://wa.me/639182744939");
-v1.setAttribute("href", "viber://chat?number=%2B639182744939");
+v1.setAttribute("href", "viber:/contact?number=%2B639182744939");
 p1.setAttribute("href", "tel:+639182744939");
